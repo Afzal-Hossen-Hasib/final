@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: "Libre Baskerville", serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.color {
+  color: orangered;
+}
+
+.first-container {
+  display: flex;
+}
+
+.welcome-note {
+  width: 50%;
+  padding: 5%;
+}
+
+.welcome-note img {
+  width: 750px;
+  padding-top: 0;
+  padding-right: 170px;
+}
+
+.welcome-note p {
+  text-align: justify;
+}
+
+.button {
+  text-decoration: none;
+  background-image: linear-gradient(orangered, orange);
+  padding: 10px 40px;
+  color: aliceblue;
+  border-radius: 5px;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.first-banner {
+  background-image: url(img/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+.second-banner {
+  background-image: url(img/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
